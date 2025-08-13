@@ -1,19 +1,16 @@
+
 .pill-sec{
     height: 100vh;
-    /* background-color: orange; */
     color: white;
     padding: 1rem 4rem;
-
 }
 .pill-text-cont{
-    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center; 
 }
 .pill-text{
-    /* background-color: green; */
     padding: 1rem; 
 }
 .pill-text h1{
@@ -28,7 +25,6 @@
 }
 /* TITLE */
 .pill-cont1-txt{
-    /* background-color: yellow; */
     padding: 1rem;
 }
 .pill-cont1-txt1 p{  
@@ -36,21 +32,17 @@
     font-weight: 600;
 }
 .pill-cards{
-    /* background-color: hotpink; */
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 40px;
     padding: 1rem;
 }
 .pill-bx1{
-    /* background-color:rebeccapurple; */
     border-radius: 20px;
-    /* border-bottom: 1px solid  whitesmoke;  */
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center; 
-    /* padding-bottom: 15px; */
     transition: all 0.3s ease-in-out;
     padding: 0;
 }
@@ -62,17 +54,14 @@
 
 /* DRUGS CARDS IMAGE */
 .pill-box{
-    /* background-color: red; */
-    /* background-color: rebeccapurple; */
     width: 100%;
     border: 1px solid white;
     border-top: none;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px; 
     padding: 15px 0;
-    /* margin: 10px 0; */
 }
-.drug-imgCont{
+ .drug-imgCont{
     width:100%;
 }
 .drug-imgCont img{
@@ -101,12 +90,37 @@
 
 
 
+@media (max-width: 1200px) {
+     .pill-cards {
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        padding: 1rem; 
+    }
+    .pill-bx1 {
+        width: 100%;
+        margin: 0 auto;
+    }
+ 
+}
 
 
+@media (max-width: 768px) {
+    .pill-sec{
+    height: auto; 
+    padding: 2rem;
 
-
-
-
+}
+ 
+    .pill-cards {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 1rem; 
+    }
+    .pill-bx1 {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
 
 
 

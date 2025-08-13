@@ -11,6 +11,7 @@
 .logo{
     display: flex;
     align-items: center; 
+    color: white;
 }
 .logo img{
     width: 100%;
@@ -86,7 +87,13 @@ nav a:hover{
         padding: 1em 2em;
     }
     .logo {
-        margin-bottom: 1em;
+        margin-top: .2em; 
+        color: white;
+    }
+    .btn {
+        width: 100%;
+        margin-top: 1em;
+        display: none;
     }
     .menu {
         display: block;

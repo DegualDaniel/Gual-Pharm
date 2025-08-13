@@ -8,24 +8,12 @@ const Cart = ({img, name, text,para }) => {
     <div className='cart'> 
     
         <div className="card-cont">
-            <div className="card-img">
-                {/* <img src={pic1} alt="" /> */}
-                {/* <img src={img} alt="" /> */}
+            <div className="card-img"> 
                 {img}
             </div>
-            <div className="card-text">
-                {/* <h3>Prime Savings</h3> */}
-                <h3>{name}</h3>
-                {/* <p>Save Up to 80%* with discount for
-                    Prime <br/> members.
-                </p> */}
-
-
-                 <p> {text} </p>   
-                {/* <p><a href="#">{text}</a></p> */}
-                {/* <h3><a href="#">
-                    Learn more about Prime savings     
-                </a></h3> */}
+            <div className="card-text"> 
+                <h3>{name}</h3>  
+                 <p> {text} </p>    
                 <h3>{para}</h3>
             </div>
         </div>

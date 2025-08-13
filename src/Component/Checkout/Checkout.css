@@ -1,29 +1,20 @@
 .checkout-sec{
-    color: white;
-    /* background-color: red; */
+    color: white; 
     padding: 5rem;
 }
-/* .checkout-summary{ 
-} */
-/* .checkout-summary h2{
-    
+ 
+
+
+
+
+
+
+
+@media (max-width: 768px) {  
+ .checkout-sec{  
+    padding: 2rem;
 }
-.checkout-summary p{
-    
 }
-.checkout-btnCont{ 
-} */
-
-
-
-
-
-
-
-
-
-
-
 
 
 

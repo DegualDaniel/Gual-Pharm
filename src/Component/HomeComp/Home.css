@@ -1,15 +1,12 @@
 
 
  
-.home{ 
-    /* background-color: red; */
-    /* background-image: url('../../assets/hero_packet.png'); */
+ .home{ 
     width: 100%;
     height: 90dvh;
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
-    /* display: flex; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -18,12 +15,10 @@
     justify-content: space-between;
 }
 .home-cont{
-    /* background-color: rebeccapurple; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-evenly;
-    /* padding:0 10px; */
 }
 .home-cont a{
     color: #006F6A;
@@ -66,21 +61,24 @@
     color: white;
 }
 .home-img{
-    /* background-color: rebeccapurple; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .home-img img{
     width:90% ;
-    /* background-color: rebeccapurple; */
 }
 
 
 
 
 
-
+@media (max-width: 768px) {
+    .home{ 
+    grid-template-columns:1fr;
+    padding: 2em;
+    } 
+}
 
 
 

@@ -19,11 +19,7 @@
     
 
 }
-.card-img{
-/* background-color: hotpink; */
-/* margin: -7px 0; */
-
-}
+ 
 .card-img img{
     width: 100%;
 }
@@ -94,7 +90,9 @@
 
 
 
-
+@media (max-width: 768px) {  
+ 
+}
 
 
 

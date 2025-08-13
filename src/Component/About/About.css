@@ -1,5 +1,4 @@
-.about-sec{
-    /* background-color: white; */
+.about-sec{ 
     color: white;
     padding: 5rem;
         width: 75%;
@@ -16,6 +15,12 @@
 }
 
 
+@media (max-width: 768px) {  
+    .about-sec{
+        width: 90%;
+        padding: 2rem;
+    }
+}
 
 
 
