@@ -11,8 +11,10 @@ html{
 body{ 
   font-family: "Poppins", sans-serif;
   transition: all 0.5s ease-in-out;
+  /* background-color: rgb(243, 248, 244); */
   background-color: #070606;
   color:black;
+  /* background-color: whitesmoke; */
 }
 
 /* BUTTON STYLING  */ 
@@ -37,12 +39,14 @@ button:hover{
 /* CARDS SECTION */
 .cards-container{
     color: white;
+  /* background-color: rebeccapurple;  */
   margin: 0 auto; 
   padding:3rem; 
   text-align: center;
     border-bottom: 1px solid #3d3d3d; 
     border-top: 1px solid #3d3d3d; 
 }
+  /* text:'Save Up to 80%* with discount for Prime <br/> members', */
 
   /* text:'Save Up to 80%* with discount for Prime <br/> members', */
 
