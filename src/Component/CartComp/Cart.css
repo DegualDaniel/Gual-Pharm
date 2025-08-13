@@ -1,0 +1,105 @@
+
+.cart{
+    background-color: white; 
+    /* background-color: red; */
+    color: black;
+    /* height: 300px; */
+    border-radius: 10px;
+}
+
+.card-cont{
+    /* background-color: green; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-around;
+    /* margin: 0; */
+    border-radius: 10px;
+    
+
+}
+.card-img{
+/* background-color: hotpink; */
+/* margin: -7px 0; */
+
+}
+.card-img img{
+    width: 100%;
+}
+.card-text{
+    text-align: center;
+    padding: 20px 10px;
+    /* background-color: #b22222; */
+    text-align: center;
+    font-size: 15px;
+    /* background-color:red; */
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.card-text h3{
+    font-size: 1rem;
+    margin: 10px 0;
+}
+.card-text h3 a{
+    color: #006F6A;
+    text-decoration:none ;
+    
+}
+.card-text p{
+    font-weight: 500;
+    margin: 10px 0;
+}
+.card-title{
+    /* background-color: rebeccapurple; */
+    /* padding: 2rem 0; */
+}
+.card-title h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.card-title h3{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: .5rem;
+}
+.style{
+    background-color: #006F6A;
+    border: none;
+    color: white;
+    font-weight: 500;
+    /* margin-top: 1rem; */
+
+}
+
+
+
+
+
+
+/* CARD WRAPPER -(GRID) */ 
+.card-wrapper{
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  /* background-color: red; */
+  /* padding: 1rem 3rem; */
+  width: 85%;
+  margin: 3rem auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+.about-sec{
+    /* background-color: white; */
+    color: white;
+    padding: 5rem;
+        width: 75%;
+    margin: 3rem auto;
+    text-align: center; 
+}
+.about-text{ 
+    padding: 3rem 0;
+    text-align: justify;
+}
+.about-text p{  
+    font-size: 1.2rem;
+    line-height: 1.6;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
