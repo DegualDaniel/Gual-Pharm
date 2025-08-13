@@ -18,7 +18,7 @@ const Head = () => {
                 <li><Link to="/">Home</Link></li>
                 {/* <li><a href="#">Home</a></li> */} 
                 <li><Link to="/pill">PillPack</Link></li>
-                <li><Link to="#">Health</Link></li>
+                <li><Link to="/">Health</Link></li>
                 <li><Link to="/about">About</Link></li>
             </ul>
             <div className="btn">

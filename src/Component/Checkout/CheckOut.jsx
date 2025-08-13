@@ -1,5 +1,5 @@
 import React from 'react'
-import './CheckOut.css'
+import './Checkout.css'
 import { useLocation, useNavigate } from 'react-router-dom'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';

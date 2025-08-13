@@ -52,7 +52,7 @@ nav a:hover{
 }
   
 .menu{
-    background-color: red;
+    /* background-color: red; */
     list-style: none;
     text-decoration: none;
     display: none; 
@@ -63,19 +63,26 @@ nav a:hover{
 
 
 
-
-/* Medium Screens: 769px–1024px */ 
-@media (max-width: 1024px){
-
-
-nav{
-    display: none;
-}
-
-    }
+/*  MEDIA QUERY (mobile + tablet)   */
  
 
+@media (max-width: 1024px) {
+  nav {
+    flex-wrap: wrap;
+    /* padding: 1em;     */
+    background-color: red;
+  }
 
+  .menu {
+    display: block;
+    cursor: pointer; 
+  }
+
+  .btn {
+    /* display: none; */
+  }
+
+  }
 
 
 
