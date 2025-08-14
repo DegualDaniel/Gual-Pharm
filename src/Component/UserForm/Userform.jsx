@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import './UserForm.css'
-import { toast } from 'react-toastify';
+// import { toast } from 'react-toastify';
 // import 'react-toastify/dist/ReactToastify.css';
 const Userform = () => {
   const navigate = useNavigate();
@@ -54,7 +54,7 @@ const validate = () => {
     }
     console.log("Form Submitted:", formData); 
 
-    alert("Order details submitted successfully!");
+    // alert("Order details submitted successfully!");
     // toast.success("Order details submitted successfully!");
 
       navigate("/checkout", { state: { formData } });
