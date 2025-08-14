@@ -55,7 +55,7 @@ const validate = () => {
     console.log("Form Submitted:", formData); 
 
     alert("Order details submitted successfully!");
-    toast.success("Order details submitted successfully!");
+    // toast.success("Order details submitted successfully!");
 
       navigate("/checkout", { state: { formData } });
  
